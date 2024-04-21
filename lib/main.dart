@@ -12,7 +12,7 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     //material_design system - provide default structure
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Randomizer',
       home: RangeSelectorPage(),
     );
