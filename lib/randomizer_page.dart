@@ -32,8 +32,6 @@ class _RandomizerPageState extends State<RandomizerPage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          //min-10
-          //max-20
           setState(() {
             _generatedNumber = widget.min +
                 randomGenerator.nextInt(widget.max + 1 - widget.min);

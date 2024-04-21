@@ -31,9 +31,7 @@ class RangeSelectorForm extends StatelessWidget {
             ),
             RangeSelectorTextformField(
               labelText: 'Maximum',
-              intValueSetter: (int value) {
-                maxValueSetter;
-              },
+              intValueSetter: maxValueSetter,
             )
           ],
         ),
